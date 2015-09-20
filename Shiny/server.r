@@ -1,8 +1,9 @@
 library(shiny)
 library(NbClust)
+library(HDclassif)
 require(cluster)
 
-data(wine,package="rattle")
+data(wine)
 dataset <- scale(wine[-1])
 set.seed(3344)
 

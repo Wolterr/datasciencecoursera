@@ -22,7 +22,7 @@ shinyUI(pageWithSidebar(
   
   # Show a plot of the generated distribution
   mainPanel(
-    helpText("Cluster wines from the rattle package.
+    helpText("Cluster wines from the wine dataset.
              Use the slider to set the number of clusters. 
              Press the button to get an estimation of what number of clusters would work best. note: estimating the number of clusters might take a while"),
     
